@@ -11,17 +11,17 @@ export const AccountSelector: React.FC = () => {
     <div className="self-stretch flex w-full flex-col items-stretch">
       <div className="flex w-full items-center gap-2">
         <div
-          className="bg-white self-stretch flex w-full min-h-16 items-center text-lg justify-between my-auto px-2.5 py-2 rounded-[20px]"
+          className="bg-white self-stretch flex min-w-60 min-h-16 w-[355px] items-center text-lg justify-between my-auto px-2.5 py-2 rounded-[20px]"
         >
           <div
-            className="self-stretch flex w-full items-center gap-4 flex-1 shrink basis-[0%] my-auto"
+            className="self-stretch flex min-w-60 w-full items-center gap-4 flex-1 shrink basis-[0%] my-auto"
           >
             <div
               className="bg-[rgba(38,237,28,1)] self-stretch flex w-12 shrink-0 h-12 my-auto rounded-[5000px]"
               aria-hidden="true"
             />
             <div
-              className="self-stretch flex flex-col items-stretch justify-center flex-1 shrink basis-[0%] my-auto"
+              className="self-stretch flex min-w-60 flex-col items-stretch justify-center flex-1 shrink basis-[0%] my-auto"
             >
               <div className="text-[rgba(28,28,28,1)] font-medium">
                 from Dollars
@@ -33,7 +33,7 @@ export const AccountSelector: React.FC = () => {
           </div>
         </div>
         <div
-          className="bg-white self-stretch flex min-h-16 items-center justify-between w-full my-auto pl-2.5 py-2 rounded-[20px]"
+          className="bg-white self-stretch flex min-h-16 items-center justify-between w-[318px] my-auto pl-2.5 py-2 rounded-[20px]"
         >
           <div className="self-stretch flex w-full items-center gap-4 flex-1 shrink basis-[0%] my-auto">
             <div
