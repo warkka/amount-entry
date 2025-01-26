@@ -19,10 +19,10 @@ export const SendContainer: React.FC = () => {
       className="bg-[rgba(245,245,247,1)] flex max-w-[393px] flex-col overflow-hidden pl-5 pt-5 pb-[321px] rounded-[24px_24px_0px_0px]"
     >
       <header
-        className="flex items-center gap-[40px_100px] text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap justify-between"
+        className="flex items-center justify-center text-xl text-[rgba(28,28,28,1)] font-semibold whitespace-nowrap relative"
       >
-        <div className="self-stretch flex w-8 shrink-0 h-8 my-auto" />
-        <h1 className="self-stretch my-auto">Send</h1>
+        <div className="absolute left-0 w-8 h-8" />
+        <h1>Send</h1>
       </header>
 
       <main className="flex flex-col gap-4 mt-4">
