@@ -32,16 +32,6 @@ export const AccountSelector: React.FC = () => {
             </div>
           </div>
         </div>
-        <div
-          className="bg-white self-stretch flex min-h-16 items-center justify-between w-[318px] my-auto pl-2.5 py-2 rounded-[20px]"
-        >
-          <div className="self-stretch flex w-full items-center gap-4 flex-1 shrink basis-[0%] my-auto">
-            <div
-              className="bg-[rgba(38,237,28,1)] self-stretch flex min-h-12 w-12 my-auto rounded-[5000px]"
-              aria-hidden="true"
-            />
-          </div>
-        </div>
       </div>
       <div className="self-center flex items-center gap-[5px] mt-2">
         <div className="bg-[rgba(38,237,28,1)] self-stretch flex w-2 shrink-0 h-2 my-auto rounded-[50%]" />
