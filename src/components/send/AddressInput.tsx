@@ -17,9 +17,9 @@ export const AddressInput: React.FC<AddressInputProps> = ({ address }) => {
       >
         To:
       </label>
-      <div className="self-stretch flex min-w-60 flex-col overflow-hidden text-[rgba(28,211,19,1)] font-medium flex-1 shrink basis-[0%] my-auto">
+      <div className="self-stretch flex flex-col overflow-hidden text-[rgba(28,211,19,1)] font-medium my-auto">
         <div
-          className="self-stretch bg-[rgba(104,249,97,0.29)] gap-[5px] px-1.5 py-1 rounded-[13px]"
+          className="self-stretch inline-flex bg-[rgba(104,249,97,0.29)] gap-[5px] px-1.5 py-1 rounded-[13px]"
         >
           {address}
         </div>
